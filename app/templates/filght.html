@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>놀당갑서 | Nodang </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="static/assets/images/logo_harbang.png">
+
+    <!-- App css -->
+    <link href="static/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="static/assets/css/app-modern.min.css" rel="stylesheet" type="text/css" id="light-style" />
+
+</head>
+
+<body class="loading" data-layout="detached" data-layout-config='{"leftSidebarCondensed":false,"darkMode":false, "showRightSidebarOnStart": true}'>
+
+    <!-- Topbar Start -->
+    <div class="navbar-custom topnav-navbar topnav-navbar-dark">
+        <div class="container-fluid">
+
+            <!-- LOGO -->
+            <a href="/" class="topnav-logo">
+                <span class="topnav-logo-lg">
+                        <img src="static/assets/images/logo_orange.png" alt="" height="50">
+                    </span>
+            </a>
+
+            <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+                <li class="dropdown notification-list d-lg-none">
+                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="dripicons-search noti-icon"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animated dropdown-lg p-0">
+                        <form class="p-3">
+                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                        </form>
+                    </div>
+                </li>
+
+                <li class="dropdown notification-list topbar-dropdown d-none d-lg-block">
+                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" id="topbar-languagedrop" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <img src="static/assets/images/flags/us.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">English</span> <i class="mdi mdi-chevron-down"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu" aria-labelledby="topbar-languagedrop">
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="static/assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="static/assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Italian</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="static/assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="static/assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Russian</span>
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" id="topbar-notifydrop" role="button" aria-haspopup="true" aria-expanded="false">
+                        <i class="dripicons-bell noti-icon"></i>
+                        <span class="noti-icon-badge"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg" aria-labelledby="topbar-notifydrop">
+
+                        <!-- item-->
+                        <div class="dropdown-item noti-title">
+                            <h5 class="m-0">
+                                <span class="float-right">
+                                        <a href="javascript: void(0);" class="text-dark">
+                                            <small>Clear All</small>
+                                        </a>
+                                    </span>Notification
+                            </h5>
+                        </div>
+
+                        <div style="max-height: 230px;" data-simplebar>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-primary">
+                                    <i class="mdi mdi-comment-account-outline"></i>
+                                </div>
+                                <p class="notify-details">Caleb Flakelar commented on Admin
+                                    <small class="text-muted">1 min ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info">
+                                    <i class="mdi mdi-account-plus"></i>
+                                </div>
+                                <p class="notify-details">New user registered.
+                                    <small class="text-muted">5 hours ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon">
+                                    <img src="static/assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                <p class="notify-details">Cristina Pride</p>
+                                <p class="text-muted mb-0 user-msg">
+                                    <small>Hi, How are you? What about our next meeting</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-primary">
+                                    <i class="mdi mdi-comment-account-outline"></i>
+                                </div>
+                                <p class="notify-details">Caleb Flakelar commented on Admin
+                                    <small class="text-muted">4 days ago</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon">
+                                    <img src="static/assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                <p class="notify-details">Karen Robinson</p>
+                                <p class="text-muted mb-0 user-msg">
+                                    <small>Wow ! this admin looks good and awesome design</small>
+                                </p>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info">
+                                    <i class="mdi mdi-heart"></i>
+                                </div>
+                                <p class="notify-details">Carlos Crouch liked
+                                    <b>Admin</b>
+                                    <small class="text-muted">13 days ago</small>
+                                </p>
+                            </a>
+                        </div>
+
+                        <!-- All-->
+                        <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                View All
+                            </a>
+
+                    </div>
+                </li>
+
+                <li class="dropdown notification-list d-none d-sm-inline-block">
+                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                        <i class="dripicons-view-apps noti-icon"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg p-0">
+
+                        <div class="p-2">
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <a class="dropdown-icon-item" href="#">
+                                        <img src="static/assets/images/brands/slack.png" alt="slack">
+                                        <span>Slack</span>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="dropdown-icon-item" href="#">
+                                        <img src="static/assets/images/brands/github.png" alt="Github">
+                                        <span>GitHub</span>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="dropdown-icon-item" href="#">
+                                        <img src="static/assets/images/brands/dribbble.png" alt="dribbble">
+                                        <span>Dribbble</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <a class="dropdown-icon-item" href="#">
+                                        <img src="static/assets/images/brands/bitbucket.png" alt="bitbucket">
+                                        <span>Bitbucket</span>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="dropdown-icon-item" href="#">
+                                        <img src="static/assets/images/brands/dropbox.png" alt="dropbox">
+                                        <span>Dropbox</span>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a class="dropdown-icon-item" href="#">
+                                        <img src="static/assets/images/brands/g-suite.png" alt="G Suite">
+                                        <span>G Suite</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="notification-list">
+                    <a class="nav-link right-bar-toggle" href="javascript: void(0);">
+                        <i class="dripicons-gear noti-icon"></i>
+                    </a>
+                </li>
+
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle nav-user arrow-none mr-0" data-toggle="dropdown" id="topbar-userdrop" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="account-user-avatar"> 
+                                <img src="static/assets/images/its_me.jpg" alt="user-image" class="rounded-circle">
+                            </span>
+                        <span>
+                                <span class="account-user-name">이다인</span>
+                        <span class="account-position">Developer</span>
+                        </span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu profile-dropdown" aria-labelledby="topbar-userdrop">
+                        <!-- item-->
+                        <div class=" dropdown-header noti-title">
+                            <h6 class="text-overflow m-0">Welcome !</h6>
+                        </div>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-account-circle mr-1"></i>
+                            <span>My Account</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-account-edit mr-1"></i>
+                            <span>Settings</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-lifebuoy mr-1"></i>
+                            <span>Support</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-lock-outline mr-1"></i>
+                            <span>Lock Screen</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-logout mr-1"></i>
+                            <span>Logout</span>
+                        </a>
+
+                    </div>
+                </li>
+
+            </ul>
+            <a class="button-menu-mobile disable-btn">
+                <div class="lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+            <div class="app-search dropdown">
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="top-search">
+                        <span class="mdi mdi-magnify search-icon"></span>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
+                    <!-- item-->
+                    <div class="dropdown-header noti-title">
+                        <h5 class="text-overflow mb-2">Found <span class="text-danger">17</span> results</h5>
+                    </div>
+
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <i class="uil-notes font-16 mr-1"></i>
+                        <span>Analytics Report</span>
+                    </a>
+
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <i class="uil-life-ring font-16 mr-1"></i>
+                        <span>How can I help you?</span>
+                    </a>
+
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <i class="uil-cog font-16 mr-1"></i>
+                        <span>User profile settings</span>
+                    </a>
+
+                    <!-- item-->
+                    <div class="dropdown-header noti-title">
+                        <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                    </div>
+
+                    <div class="notification-list">
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <div class="media">
+                                <img class="d-flex mr-2 rounded-circle" src="static/assets/images/users/avatar-2.jpg" alt="Generic placeholder image" height="32">
+                                <div class="media-body">
+                                    <h5 class="m-0 font-14">Erwin Brown</h5>
+                                    <span class="font-12 mb-0">UI Designer</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <div class="media">
+                                <img class="d-flex mr-2 rounded-circle" src="static/assets/images/users/avatar-5.jpg" alt="Generic placeholder image" height="32">
+                                <div class="media-body">
+                                    <h5 class="m-0 font-14">Jacob Deo</h5>
+                                    <span class="font-12 mb-0">Developer</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Topbar -->
+
+    <!-- Start Content-->
+    <div class="container-fluid">
+
+        <!-- Begin page -->
+        <div class="wrapper">
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="left-side-menu left-side-menu-detached">
+
+                <div class="leftbar-user">
+                    <a href="javascript: void(0);">
+                        <img src="static/assets/images/its_me.jpg" alt="user-image" height="100" class="rounded-circle shadow-sm">
+                        <span class="leftbar-user-name">이다인</span>
+                    </a>
+                </div>
+
+                <!--- Sidemenu -->
+                <ul class="metismenu side-nav">
+
+                    <li class="side-nav-title side-nav-item">Navigation</li>
+
+                    <li class="side-nav-item">
+                        <a href="dashboard1" class="side-nav-link">
+                            <i class="uil-calender"></i>
+                            <span> Main - Dashboard </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="filght" class="side-nav-link">
+                            <i class="uil-calender"></i>
+                            <span>Filght </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="/" class="side-nav-link">
+                            <i class="uil-calender"></i>
+                            <span>Calender </span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- End Sidebar -->
+
+                <div class="clearfix"></div>
+                <!-- Sidebar -left -->
+
+            </div>
+            <!-- Left Sidebar End -->
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item active"><a href="dashboard1">DashBoard</a></li>
+                                        <li class="breadcrumb-item"><a href="filght">Filght</a></li>
+                                        <li class="breadcrumb-item"><a href="/">Calendar</a></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end page title -->
+                    <div class="row">
+                        <div class="col-8">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col-lg-12">
+                                                    <form class="form-inline" action="/filghtDate" method="get">
+                                                        <div class="form-group mx-sm-3 mb-2">
+                                                            <label class="mr-2">날짜</label>
+                                                            <input type="text" id="selectedDate" name="selectedDate" placeholder="2023-01-01">
+                                                        </div>
+                                                        <div class="form-group mx-sm-3 mb-2">
+                                                            <label for="status-select" class="mr-2">가격 범위 설정</label>
+                                                            <select class="custom-select" id="statusselect1" name="statusselect1">
+                                                            <option selected value="0">Choose...</option>
+                                                            <option value="1">0~5만원</option>
+                                                            <option value="2">5~10만원</option>
+                                                            <option value="3">10~15만원</option>
+                                                            <option value="4">15만원~20만원</option>
+                                                            <option value="5">20만원~</option>
+                                                        </select>
+                                                        </div>
+                                                        <div class="form-group mx-sm-3 mb-2">
+                                                            <label class="mr-2">출발지</label>
+                                                            <select class="custom-select" id="statusselect2" name="statusselect2">
+                                                        <option selected value='GMP'>Choose...</option>
+                                                        <option value="GMP">김포</option>
+                                                        <option value="CJU">제주</option>
+                                                    </select>
+                                                        </div>
+                                                        <input class="btn btn-dark mb-2" id="filghtsubmit" type="submit" value="검색">
+                                                    </form>
+                                                </div>
+                                                <!-- <div class="col-lg-4">
+                                                    <div style="display: flex; justify-content: flex-end;">
+                                                        <div class="form-group mx-sm-3 mb-2 text-lg-right" style="text-align: right;">
+                                                            <h4 style="display: inline;">Total:<span id="totalAmount">{{total_amount}}₩</span></h4>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                            <div data-simplebar style="height: 300px; overflow: auto;">
+                                                <div class="table-responsive">
+                                                    <table class="table table-centered mb-0">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th style="width: 20px;">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                                        <label class="custom-control-label" for="customCheck1">&nbsp;</label>
+                                                                    </div>
+                                                                </th>
+                                                                <th>날짜</th>
+                                                                <th>요일</th>
+                                                                <th>항공사</th>
+                                                                <th>출발공항</th>
+                                                                <th>출발시각</th>
+                                                                <th>도착시각</th>
+                                                                <th>좌석</th>
+                                                                <th>가격</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="flight-table-body">
+                                                            <tr>
+                                                                {% for data in air_list %}
+                                                                <td>
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" name="flight-checkbox1" class="custom-control-input" id="customCheck1{{loop.index0}}">
+                                                                        <label class="custom-control-label" for="customCheck1{{loop.index0}}">&nbsp;</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>{{ data['date'] }}</td>
+                                                                <td>{{ data['day'] }}</td>
+                                                                <td>{{ data['name'] }}</td>
+                                                                <td>{{ data['airport'] }}</td>
+                                                                <td>{{ data['leavetime'] }}</td>
+                                                                <td>{{ data['reachtime'] }}</td>
+                                                                <td>{{ data['seat'] }}</td>
+                                                                <td>{{ data['charge'] }}</td>
+                                                            </tr>
+                                                            {% endfor %}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- end card-body-->
+                                    </div>
+                                    <!-- end card-->
+                                </div>
+                                <!-- end col -->
+                            </div>
+
+                            <!-- end row -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col-lg-8">
+                                                    <form class="form-inline" action='/hotelprice' method="get">
+                                                        <div class="form-group mx-sm-3 mb-2">
+                                                            <label for="status-select" class="mr-2">가격</label>
+                                                            <select class="custom-select" id="statusselect3" name="statusselect3">
+                                                            <option selected value="0">Choose...</option>
+                                                            <option value="1">0~3만원</option>
+                                                            <option value="2">3~5만원</option>
+                                                            <option value="3">5~10만원</option>
+                                                            <option value="4">10~20만원</option>
+                                                            <option value="5">20만원~</option>
+                                                        </select>
+                                                        </div>
+                                                        <div class="form-group mx-sm-3 mb-2">
+                                                            <label for="status-select" class="mr-2">지역</label>
+                                                            <select class="custom-select" id="statusselect4" name="statusselect4">
+                                                        <option selected value="제주">Choose...</option>
+                                                        <option value="제주">제주</option>
+                                                        <option value="서귀포">서귀포</option>
+                                                    </select>
+                                                        </div>
+                                                        <input class="btn btn-dark mb-2" type="submit" value="검색">
+                                                    </form>
+                                                </div>
+                                                <!-- end col-->
+                                            </div>
+                                            <div data-simplebar style="height: 300px; overflow: auto;">
+                                                <div class="table-responsive">
+                                                    <table class="table table-centered mb-0">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th style="width: 20px;">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input" id="customCheck2">
+                                                                        <label class="custom-control-label" for="customCheck2">&nbsp;</label>
+                                                                    </div>
+                                                                </th>
+                                                                <!-- <th>Order ID</th> -->
+                                                                <th>호텔</th>
+                                                                <th>주소</th>
+                                                                <th>별점</th>
+                                                                <th>성급</th>
+                                                                <th>가격</th>
+                                                                <!-- <th style="width: 125px;">Action</th> -->
+                                                            </tr>
+                                                        </thead>
+
+                                                        <tbody id="flight-table-body3">
+                                                            {% for data in hotel_list %}
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" name="flight-checkbox2" class="custom-control-input" id="customCheck2{{loop.index}}">
+                                                                        <label class="custom-control-label" for="customCheck2{{loop.index}}">&nbsp;</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>{{data['name']}}</td>
+                                                                <td>{{data['address']}} </td>
+                                                                <td>{{data['rating']}}</td>
+                                                                <td>{{data['star']}}</td>
+                                                                <td>{{data['price']}} </td>
+                                                            </tr>
+                                                            {% endfor %}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end card-body-->
+
+                                    </div>
+                                    <!-- end card-->
+                                </div>
+                                <!-- end col -->
+                            </div>
+                            <!-- 렌터카 렌터카 렌터카 렌터카 렌터카 렌터카 렌터카 렌터카 렌터카 렌터카 렌터카  -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div data-simplebar style="height: 300px; overflow: auto;">
+                                                <div class="table-responsive">
+                                                    <table class="table table-centered mb-0">
+                                                        <thead class="thead-light">
+                                                            <tr>
+                                                                <th style="width: 20px;">
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" class="custom-control-input" id="customCheck3">
+                                                                        <label class="custom-control-label" for="customCheck3">&nbsp;</label>
+                                                                    </div>
+                                                                </th>
+                                                                <!-- <th>Order ID</th> -->
+                                                                <th>차종류</th>
+                                                                <th>주유 종류</th>
+                                                                <th>탑승 가능 수</th>
+                                                                <th>생산일자</th>
+                                                                <th>가격</th>
+                                                                <th>할인가</th>
+                                                                <!-- <th style="width: 125px;">Action</th> -->
+                                                            </tr>
+                                                        </thead>
+
+                                                        <tbody id="flight-table-body4">
+                                                            {% for data in car_list %}
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="custom-control custom-checkbox">
+                                                                        <input type="checkbox" name="flight-checkbox3" class="custom-control-input" id="customCheck3{{loop.index}}">
+                                                                        <label class="custom-control-label" for="customCheck3{{loop.index}}">&nbsp;</label>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    {{data['carname']}}
+                                                                </td>
+                                                                <td>
+                                                                    {{data['oiltype']}}
+                                                                </td>
+                                                                <td>
+                                                                    {{data['seater']}}
+                                                                </td>
+                                                                <td>
+                                                                    {{data['avg_year']}}
+                                                                </td>
+                                                                <td>
+                                                                    {{data['avg_regular_price']}}
+                                                                </td>
+                                                                <td>
+                                                                    {{data['avg_discounted_price']}}
+                                                                </td>
+                                                            </tr>
+                                                            {% endfor %}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- end card-body-->
+                                    </div>
+                                    <!-- end card-->
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="col-4 ">
+                            <div class="card col-3" style="position: fixed; top: 150px;">
+                                <div class="card-body ">
+                                    <div class="col-12">
+                                        <div class="border p-3 mt-4 mt-lg-0 rounded ">
+                                            <h4 class="header-title mb-3 ">Order Summary</h4>
+                                            <div class="table-responsive ">
+                                                <table class="table mb-0 ">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>항공권 : </td>
+                                                            <td>₩ 34800</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>숙박시설 :</td>
+                                                            <td>₩ 91964</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>렌터카 : </td>
+                                                            <td>₩ 50600</td>
+                                                        </tr>
+                                                        <tr class="alert alert-warning">
+                                                            <th>합계 :</th>
+                                                            <th>₩ 177364</th>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <!-- end table-responsive -->
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                2023 © Fly_jeju.com
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-right footer-links d-none d-md-block">
+                                    <a href="javascript: void(0);">About</a>
+                                    <a href="javascript: void(0);">Support</a>
+                                    <a href="javascript: void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+            <!-- content-page -->
+
+        </div>
+        <!-- end wrapper-->
+    </div>
+    <!-- END Container -->
+
+
+
+    <!-- bundle -->
+    <script src="static/assets/js/vendor.min.js"></script>
+    <script src="static/assets/js/app.min.js"></script>
+    <script src="static/assets/js/filght_total_price.js"></script>
+
+</body>
+
+</html>

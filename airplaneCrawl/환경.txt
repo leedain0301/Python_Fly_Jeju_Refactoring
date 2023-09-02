@@ -1,0 +1,8 @@
+크롬 빌드 112.0.5615.50
+
+
+vs코드 터미널로 설치
+
+pip install selenium
+pip install pyarrow
+pip install --upgrade google-cloud-bigquery

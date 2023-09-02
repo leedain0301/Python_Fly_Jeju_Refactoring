@@ -1,0 +1,31 @@
+
+,success: function(param){
+    var events = [];
+    console.log(param);
+    $.each(param, function (index, data){
+        console.log(data);
+        if(data.pValue != null && data.pValue === 'private'){
+            events.push({
+                title : data.title
+                ,start : data.start
+                ,end : data.end
+                ,color : 'red'
+            });
+        }else if(data.pValue != null && data.pValue === 'public'){
+            events.push({
+                title : data.title
+                ,start : data.start
+                ,end : data.end
+                ,color : 'blue'
+            });
+        }else{
+            events.push({
+                title : data.title
+                ,start : data.start
+                ,end : data.end
+                ,color : 'green'
+            });
+        }
+    })
+    successCallback(events);
+}

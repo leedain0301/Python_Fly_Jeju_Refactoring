@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fightproject",
+  "private_key_id": "46d68da728a3068e1a6bd8460cc52f23e258e088",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDHCayG6hmTDeNF\nq5G38mLqkb8oFHFBc485gk24y4Em2rCjih/UwSi2GCmqQqyRSI4ZeUC1WowfmBcg\nkSn/4VVZSzxk8+39D3g7vNzfMJh9DfMbk1cz14iKlu5z0k8De6dk5+e5Vmhan5c0\nN0FPhDzM4XLDe8Dl17NcVAOt+JGZG+Y7Rc7uW9AqIvru9YUJutyuCqvKGfq36T9w\nCilNrwIKtBzpHa+EA6o1UAcTHR3V0o34T4FXM6a3Hk2LIan0cYKnQT2AxM1F+JBO\nlg+KXzdubrsxUVpDxSuXtOX42wQ18uZl41d/HM4cPNrSSVIlaIUTu/+8CxApHmGU\n5CeFnqenAgMBAAECggEAM84+y7bvBSmeOCoZ+YjrWiapXKNFf0W2x780v56odRaC\n125CLrw//nV3kstb40zBP7whrZJt2mNZ0a43AlUCRAWjKJudHDsEjnfv/V/GsPYK\niujkz6eP8JKsahUZX8y1mzwJQmJNMxlK39pp82p18NXVazAw2yIzmxp7ArMqInF8\nlQFAz7EDxGrA/yi5mBuL4KpUgPBt2h9epKXFDp7jBNfYfUVeEOcTidtuZLnUJ189\nP32RUIQTNnXR7qcFsvgHa4ymza9e21bfxAFw71KCyAfq8YDZ7u22hHmHlKg1dtKX\nCFkYapTgb2HNRSpVTgJAKdMXoTBO13p3Mjl5X6QMoQKBgQD3C0OcrX9og+3xtCWn\n2ntamM7/0j5d/VFJMasTrbNnsrE68p+xqxFt2IMl5bbCEWfSCxLSz/P7EY60U3L9\nEex+Fm9eIuIGYcurKpPWlW7TI5Et0XxNLsRvDyHpXVNXATY4DNS8PyDFCiuRKRTm\nBRYk7zT4AZVVl+iT4vYFv5zE/wKBgQDOQOEuqtjuZW0sYP7bR/apT0eKTVPICFhC\nD9dzNOOn+YpSSwwX/JZSj00pNik0R3j7ZeLVhFD+TPhvlEuHmyW+Xcr2tqsXK+LF\nV2BtHKCjxDyQ3WOaGNHzdWTK3pZSfAW9hYH5O4XZpIIioGqQFFKF5pZQ7mrNgpK4\ndsKV+crVWQKBgDRsRH2z52xzSoPW2YLD/xcbhBmPMMLbJWulyYrUelSP+8HpiG+4\nQGuR3Uqmc2C9Ns3Aoc7wZ/KoKCMl7im7qvaapilQt6vpBsIct+B6N1lAm+cgJANw\n4Cg9CtIthqjYzfuY5W/I6ZhGbzZPhGrHO4q84/2YwGq4YJc5O0G/BnJbAoGAFODI\naprsvqURug5Pfg74zwaxbTSKqJL/rCBCZO0TpmtCLzZdkQgGh3DuFJ/g5+PcQUZ9\nAbQVJsjP1SujwaRY275Oz06KXxwYJnXD0we00x8IKnnenTip+AUIIOkLOmpHgnnD\nQGFgGTnn2m12nAMSn29KBAM+WHNBOt76r4fLmnECgYA4R/E939lriIkYTJ3VaHQj\nQBjslVDYR51jzhYOVWiUEJ4LxnmLA3N/UEkah49mqmNaGTgnEo6VJlLFNA0HfCzI\nesGuO5uVPnFnz4+oDRT1U9GFyjwyB9s9p5BRSrRYION5XA5xqxpSX070rv2MjZzl\nsfU/rt8OZRJFiA60Yzuy2A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "dain-0515@fightproject.iam.gserviceaccount.com",
+  "client_id": "100246703535687788176",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dain-0515%40fightproject.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
