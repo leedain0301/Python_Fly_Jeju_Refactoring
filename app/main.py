@@ -134,7 +134,7 @@ def hotelprice(statusselect3=None,statusselect4=None ):
         return render_template('filght.html', air_list=air_list, hotel_list=hotel_list, car_list=car_list)
 
 
-# test 잔디 심어지는 확인용 3333333333333333
+# test 잔디 심어지는 확인용 44444444444
 @app.route('/dashboard1') 
 def dashboard1():
     return render_template('dashboard1.html')
